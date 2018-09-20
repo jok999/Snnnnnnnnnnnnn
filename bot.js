@@ -58,7 +58,7 @@ client.on('ready', () => {
   console.log('')
   console.log('')
   console.log('')
-  client.user.setActivity('www.Flix-Host.com')
+  client.user.setActivity('SnakeBot | by Mr.SOKA')
 });
 
 client.on('message', message => {
