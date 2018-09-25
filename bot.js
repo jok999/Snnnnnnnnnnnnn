@@ -61,6 +61,12 @@ client.on('ready', () => {
   client.user.setActivity('SnakeBot | by Mr.SOKA')
 });
 
+      client.on('ready', () => {
+              client.user.setActivity("Shelp | by MrSOKA", {type: 'LISTENING'});
+     
+      });
+
+
 client.on('message', message => {
 	var args = message.content.split(' ');
 	var args1 = message.content.split(' ').slice(1).join(' ');
